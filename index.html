@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indraraj Biswas | Cybersecurity Professional</title>
+    <meta name="description" content="Portfolio and resume site for Indraraj Biswas, a cybersecurity researcher and leader based in Kansas City, Missouri.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page">
+        <header class="hero" id="top">
+            <div class="hero__intro">
+                <p class="hero__location">Kansas City, Missouri</p>
+                <h1 class="hero__name">Indraraj Biswas</h1>
+                <p class="hero__tagline">Cybersecurity researcher, reverse engineer, and community builder.</p>
+            </div>
+            <ul class="hero__contact">
+                <li><a href="mailto:saket.biswas@gmail.com">saket.biswas@gmail.com</a></li>
+                <li><a href="tel:+18167992004">816&nbsp;799&nbsp;2004</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <section class="section" id="about">
+                <h2 class="section__title">About</h2>
+                <p class="section__lead">
+                    I build resilient defenses, explore adversarial tactics, and create inclusive spaces for cybersecurity enthusiasts.
+                    From leading student communities to delivering incident response and ICS research, I thrive on transforming complex
+                    threats into actionable insights.
+                </p>
+            </section>
+
+            <section class="section" id="experience">
+                <h2 class="section__title">Experience</h2>
+                <ol class="timeline">
+                    <li class="timeline__item">
+                        <div class="timeline__time">Aug&nbsp;2024 – Present · Kansas City, Missouri</div>
+                        <h3 class="timeline__role">Founder &amp; President · The Cybersecurity Club at UMKC</h3>
+                        <p class="timeline__details">
+                            Established and lead a student-run club focused on ethical hacking, Capture The Flag (CTF) competitions,
+                            and cybersecurity education for the UMKC community.
+                        </p>
+                    </li>
+                    <li class="timeline__item">
+                        <div class="timeline__time">Dec&nbsp;2023 – Jul&nbsp;2024 · Bengaluru, India</div>
+                        <h3 class="timeline__role">Security Researcher · HackIT Technology &amp; Advisory Services</h3>
+                        <p class="timeline__details">
+                            Conducted red-team engagements, reverse engineered firmware, and performed router exploitation while creating
+                            Python tooling for password decoding and automated workflows using Selenium and Requests.
+                        </p>
+                    </li>
+                    <li class="timeline__item">
+                        <div class="timeline__time">Feb&nbsp;2023 – Nov&nbsp;2023 · Bengaluru, India</div>
+                        <h3 class="timeline__role">Customer Success Engineering Intern · Trellix (McAfee)</h3>
+                        <p class="timeline__details">
+                            Supported incident response and forensic investigations, delivered automation in Python, and provided
+                            advanced support for network security solutions including IPS, email security, and sandboxing products.
+                        </p>
+                    </li>
+                    <li class="timeline__item">
+                        <div class="timeline__time">Jun&nbsp;2022 – Jan&nbsp;2023</div>
+                        <h3 class="timeline__role">Cybersecurity Consultant · Schneider Electric</h3>
+                        <p class="timeline__details">
+                            Crafted ICS/SCADA, wireless, and reverse engineering challenges for Capture The Flag tournaments and
+                            engineered a miniature ICS prototype with PLCs and HMIs to demonstrate real-world attack scenarios.
+                        </p>
+                    </li>
+                    <li class="timeline__item">
+                        <div class="timeline__time">2019 – Present</div>
+                        <h3 class="timeline__role">CTF Player &amp; Mentor/Researcher · team bi0s</h3>
+                        <p class="timeline__details">
+                            Compete weekly on emerging vulnerabilities with India’s top-ranked CTF team, while mentoring juniors on
+                            IoT, Linux, wireless, and ICS/SCADA security topics.
+                        </p>
+                    </li>
+                </ol>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section__title">Education</h2>
+                <div class="cards">
+                    <article class="card">
+                        <header>
+                            <h3>MS in Computer Science &amp; Cybersecurity</h3>
+                            <p class="card__meta">University of Missouri–Kansas City · Aug&nbsp;2024 – Present · Kansas City, Missouri</p>
+                        </header>
+                    </article>
+                    <article class="card">
+                        <header>
+                            <h3>B.Tech in Computer Science &amp; Artificial Intelligence</h3>
+                            <p class="card__meta">Amrita Vishwa Vidyapeetham · 2019 – Aug&nbsp;2023 · Kollam, Kerala, India</p>
+                        </header>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="certifications">
+                <h2 class="section__title">Certificates</h2>
+                <ul class="badges">
+                    <li class="badge">CompTIA Security+ (SY0-701) · 2025</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© <span id="year"></span> Indraraj Biswas · Crafted with curiosity and care.</p>
+            <a class="footer__top" href="#top">Back to top ↑</a>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
